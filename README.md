@@ -12,23 +12,21 @@ The entire training and evaluation pipeline is built using modern, reproducible 
 
 ## 📑 Table of Contents
 
-- [�️ Food-101 Image Classification with EfficientNetV2-S and PyTorch Lightning](#️-food-101-image-classification-with-efficientnetv2-s-and-pytorch-lightning)
-  - [📑 Table of Contents](#-table-of-contents)
-  - [🎯 Project Highlights](#-project-highlights)
-  - [💡 Real-World Applications](#-real-world-applications)
-  - [🧫 Experimental Results](#-experimental-results)
-  - [📊 Final Results](#-final-results)
-  - [🔬 Performance Analysis and Error Diagnosis](#-performance-analysis-and-error-diagnosis)
-      - [🍤 Lowest-Performing Classes](#-lowest-performing-classes)
-      - [🔎 Root Cause Analysis of Misclassifications](#-root-cause-analysis-of-misclassifications)
-      - [🛠️ FutureWork](#️-futurework)
-  - [🧪 Methodology and Experimental Process](#-methodology-and-experimental-process)
-  - [📁 Repository Structure](#-repository-structure)
-  - [🚀 Getting Started](#-getting-started)
-    - [Prerequisites](#prerequisites)
-    - [Installation](#installation)
-    - [Usage](#usage)
-    - [💻 Technologies Used](#-technologies-used)
+- [🎯 Project Highlights](#-project-highlights)
+- [💡 Real-World Applications](#-real-world-applications)
+- [🧫 Experimental Results](#-experimental-results)
+- [📊 Final Results](#-final-results)
+- [🔬 Performance Analysis and Error Diagnosis](#-performance-analysis-and-error-diagnosis)
+  - [🍤 Lowest-Performing Classes](#-lowest-performing-classes)
+  - [🔎 Root Cause Analysis of Misclassifications](#-root-cause-analysis-of-misclassifications)
+  - [🛠️ FutureWork](#️-futurework)
+- [🧪 Methodology and Experimental Process](#-methodology-and-experimental-process)
+- [📁 Repository Structure](#-repository-structure)
+- [🚀 Getting Started](#-getting-started)
+  - [Prerequisites](#prerequisites)
+  - [Installation](#installation)
+  - [Usage](#usage)
+  - [💻 Technologies Used](#-technologies-used)
 
 ---
 
