@@ -12,7 +12,7 @@ The entire training and evaluation pipeline is built using modern, reproducible 
 
 ## 📑 Table of Contents
 
-- [🍽️ Food-101 Image Classification with EfficientNetV2-S and PyTorch Lightning](#️-food-101-image-classification-with-efficientnetv2-s-and-pytorch-lightning)
+- [�️ Food-101 Image Classification with EfficientNetV2-S and PyTorch Lightning](#️-food-101-image-classification-with-efficientnetv2-s-and-pytorch-lightning)
   - [📑 Table of Contents](#-table-of-contents)
   - [🎯 Project Highlights](#-project-highlights)
   - [💡 Real-World Applications](#-real-world-applications)
