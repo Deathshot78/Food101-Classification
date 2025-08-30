@@ -12,7 +12,7 @@ The entire training and evaluation pipeline is built using modern, reproducible 
 
 ## 📑 Table of Contents
 
-- [�️ Food-101 Image Classification with EfficientNetV2-S and PyTorch Lightning](#️-food-101-image-classification-with-efficientnetv2-s-and-pytorch-lightning)
+- [🍽️ Food-101 Image Classification with EfficientNetV2-S and PyTorch Lightning](#️-food-101-image-classification-with-efficientnetv2-s-and-pytorch-lightning)
   - [📑 Table of Contents](#-table-of-contents)
   - [🎯 Project Highlights](#-project-highlights)
   - [💡 Real-World Applications](#-real-world-applications)
@@ -20,8 +20,8 @@ The entire training and evaluation pipeline is built using modern, reproducible 
   - [📊 Final Results](#-final-results)
   - [🔬 Performance Analysis and Error Diagnosis](#-performance-analysis-and-error-diagnosis)
       - [🍤 Lowest-Performing Classes](#-lowest-performing-classes)
-      - [Root Cause Analysis of Misclassifications](#root-cause-analysis-of-misclassifications)
-      - [Future Work](#future-work)
+      - [🔎 Root Cause Analysis of Misclassifications](#-root-cause-analysis-of-misclassifications)
+      - [🛠️ FutureWork](#️-futurework)
   - [🧪 Methodology and Experimental Process](#-methodology-and-experimental-process)
   - [📁 Repository Structure](#-repository-structure)
   - [🚀 Getting Started](#-getting-started)
@@ -83,7 +83,7 @@ After systematically iterating on model architecture and hyperparameters, the fi
 | Validation Accuracy | **85.4%** |
 
 ![Confusion Matrix Plot](assets/confusion_matrix.png)
-*Here is the Confusion Matrix on the Test set. (you can find this plot in the assets section)*
+*A confusion matrix visualization helps diagnose the model's performance on a per-class basis. (Replace with your own plot)*
 
 This model is deployed and accessible as an interactive Gradio web application on Hugging Face Spaces.
 
@@ -111,13 +111,13 @@ The following five classes had the lowest validation accuracy:
 | `huevos_rancheros`  | 56    | 63.2%               |
 | `falafel`           | 36    | 63.6%               |
 
-#### Root Cause Analysis of Misclassifications
+#### 🔎 Root Cause Analysis of Misclassifications
 
-* **High Intra-Class Variation**: The model struggled with dishes that have no single, consistent appearance.  
-* **Fine-Grained Confusion**: Errors occurred between visually similar classes like `ravioli` vs. `dumplings`.  
-* **Ambiguous Features**: Foods like `falafel` resemble many small fried dishes, making classification tricky.  
+- **High Intra-Class Variation**: The model struggled with dishes that have no single, consistent appearance.  
+- **Fine-Grained Confusion**: Errors occurred between visually similar classes like `ravioli` vs. `dumplings`.  
+- **Ambiguous Features**: Foods like `falafel` resemble many small fried dishes, making classification tricky.  
 
-#### Future Work
+#### 🛠️ FutureWork
 
 Improvements could include:
 
@@ -189,6 +189,8 @@ Run training with a subset for quick testing:
 ```bash
 python main.py
 ```
+
+---
 
 ### 💻 Technologies Used
 
