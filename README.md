@@ -12,7 +12,7 @@ The entire training and evaluation pipeline is built using modern, reproducible 
 
 ## 📑 Table of Contents
 
-- [�️ Food-101 Image Classification with EfficientNetV2-S and PyTorch Lightning](#️-food-101-image-classification-with-efficientnetv2-s-and-pytorch-lightning)
+- [🍽️ Food-101 Image Classification with EfficientNetV2-S and PyTorch Lightning](#️-food-101-image-classification-with-efficientnetv2-s-and-pytorch-lightning)
   - [📑 Table of Contents](#-table-of-contents)
   - [🎯 Project Highlights](#-project-highlights)
   - [💡 Real-World Applications](#-real-world-applications)
@@ -83,7 +83,7 @@ After systematically iterating on model architecture and hyperparameters, the fi
 | Validation Accuracy | **85.4%** |
 
 ![Confusion Matrix Plot](assets/confusion_matrix.png)
-*A confusion matrix visualization helps diagnose the model's performance on a per-class basis. (Replace with your own plot)*
+*Here is the Confusion Matrix on the Test set. (you can find this plot in the assets section)*
 
 This model is deployed and accessible as an interactive Gradio web application on Hugging Face Spaces.
 
