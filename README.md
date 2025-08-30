@@ -12,7 +12,7 @@ The entire training and evaluation pipeline is built using modern, reproducible 
 
 ## 📑 Table of Contents
 
-- [🍽️ Food-101 Image Classification with EfficientNetV2-S and PyTorch Lightning](#️-food-101-image-classification-with-efficientnetv2-s-and-pytorch-lightning)
+- [�️ Food-101 Image Classification with EfficientNetV2-S and PyTorch Lightning](#️-food-101-image-classification-with-efficientnetv2-s-and-pytorch-lightning)
   - [📑 Table of Contents](#-table-of-contents)
   - [🎯 Project Highlights](#-project-highlights)
   - [💡 Real-World Applications](#-real-world-applications)
@@ -89,7 +89,7 @@ This model is deployed and accessible as an interactive Gradio web application o
 
 ![Gradio](assets/gradio.png)
 
-Check out my [Food101 Gradio Demo](https://huggingface.co/spaces/your-username/food101-demo).
+Check out my [Food101 Gradio Demo](https://huggingface.co/spaces/Deathshot78/Food101-Classification).
 
 ---
 
